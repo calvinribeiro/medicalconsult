@@ -1,4 +1,4 @@
-package br.com.edgarneto.medicalconsult.usuario.models;
+package br.com.fernanda.medicalconsult.usuario.models;
 
 import jakarta.persistence.*;
 import lombok.Data;

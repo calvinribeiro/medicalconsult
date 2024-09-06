@@ -1,4 +1,4 @@
-package br.com.edgarneto.medicalconsult;
+package br.com.fernanda.medicalconsult;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

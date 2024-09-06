@@ -1,8 +1,8 @@
-package br.com.edgarneto.medicalconsult.usuario.controllers;
+package br.com.fernanda.medicalconsult.usuario.resources;
 
 
-import br.com.edgarneto.medicalconsult.usuario.models.Usuario;
-import br.com.edgarneto.medicalconsult.usuario.services.UsuarioService;
+import br.com.fernanda.medicalconsult.usuario.models.Usuario;
+import br.com.fernanda.medicalconsult.usuario.services.UsuarioService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,7 +12,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/usuarios")
-public class UsuarioController {
+public class UsuarioResource {
 
     @Autowired
     private UsuarioService usuarioService;
@@ -45,6 +45,6 @@ public class UsuarioController {
     @DeleteMapping("/{id}")
     public ResponseEntity<String> excluirUsuario(@PathVariable Long id) {
          usuarioService.excluirUsuario(id);
-         return ResponseEntity.ok("Usuario excluido com sucesso!");
+         return ResponseEntity.ok("O usuario foi excluido");
     }
 }

@@ -1,8 +1,7 @@
-package br.com.edgarneto.medicalconsult.usuario.services;
+package br.com.fernanda.medicalconsult.usuario.services;
 
-import br.com.edgarneto.medicalconsult.usuario.models.Usuario;
-import br.com.edgarneto.medicalconsult.usuario.repositories.UsuarioRepository;
-import jakarta.persistence.criteria.CriteriaBuilder;
+import br.com.fernanda.medicalconsult.usuario.models.Usuario;
+import br.com.fernanda.medicalconsult.usuario.repositories.UsuarioRepository;
 import lombok.AllArgsConstructor;
 import org.hibernate.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;

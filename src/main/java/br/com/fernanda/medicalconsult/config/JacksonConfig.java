@@ -1,4 +1,4 @@
-package br.com.edgarneto.medicalconsult.config;
+package br.com.fernanda.medicalconsult.config;
 
 
 import com.fasterxml.jackson.databind.ObjectMapper;
