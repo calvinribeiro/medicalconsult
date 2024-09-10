@@ -1,14 +1,14 @@
-package br.com.edgarneto.medicalconsult.usuario.services;
+package br.com.calvinribeiro.medicalconsult.usuario.services;
 
-import br.com.edgarneto.medicalconsult.usuario.models.Usuario;
-import br.com.edgarneto.medicalconsult.usuario.repositories.UsuarioRepository;
-import jakarta.persistence.criteria.CriteriaBuilder;
-import lombok.AllArgsConstructor;
+import java.util.List;
+
+import br.com.calvinribeiro.medicalconsult.usuario.repositories.UsuarioRepository;
 import org.hibernate.ObjectNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import br.com.calvinribeiro.medicalconsult.usuario.models.Usuario;
+import lombok.AllArgsConstructor;
 
 @AllArgsConstructor
 @Service
